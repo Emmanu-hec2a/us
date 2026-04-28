@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Tinah & Emmanuel 💜</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="icon" type="image/jpeg" href="/favicon.jpg">
+<link rel="icon" type="image/jpeg" href="favicon.jpg">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
@@ -521,7 +521,7 @@
     <div class="player-box reveal">
       <div class="vinyl" id="vinyl"></div>
       <div id="tracklist"></div>
-      <p class="sp-note">♫ &nbsp; Your curated playlist (update songs array to add more) &nbsp; ♫</p>
+      <p class="sp-note">♫ &nbsp; Your curated playlist &nbsp; ♫</p>
     </div>
   </div>
 </section>
@@ -532,7 +532,7 @@
     <h2 class="section-title reveal" style="font-style:italic;background:linear-gradient(90deg,var(--her1),var(--her3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Us</h2>
     <div class="divider reveal"></div>
     <div class="gallery-grid" id="gallery"></div>
-    <p class="gnote reveal">💜 To add your photos, update the <strong>galleryImages</strong> array in the JavaScript with your image URLs 💜</p>
+    <p class="gnote reveal">💜 <strong>LOMLF</strong>💜</p>
   </div>
 </section>
 
@@ -563,7 +563,7 @@
     <div class="divider reveal"></div>
     <div class="secret-wrap">
       <div class="scard reveal" id="scard">
-        <span id="lock-icon">🔒</span>
+        <span id="lock-icon">?</span>
         <p class="shint" id="shint">This one's just for you, Tinah.<br/>You know the key. 💜</p>
         <div id="kform">
           <input class="kinput" type="password" id="kinput" placeholder="enter the key…" maxlength="20"/>
@@ -774,12 +774,12 @@ buildTracks();
 /* ─── GALLERY ───────────────────────────── */
 // CUSTOMIZE: Add image paths here
 const galleryImages=[
-  {src:'/happyUs1.jpeg', alt:'Photo 1'},
-  {src:'/hands.jpeg', alt:'Photo 2'},
-  {src:'/meLeg1.jpeg', alt:'Photo 3'},
-  {src:'/her1.jpeg', alt:'Photo 4'},
-  {src:'/me1.jpeg', alt:'Photo 5'},
-  {src:'/mine.jpeg', alt:'Photo 6'},
+  {src:'happyUs1.jpeg', alt:'Photo 1'},
+  {src:'hands.jpeg', alt:'Photo 2'},
+  {src:'meLeg1.jpeg', alt:'Photo 3'},
+  {src:'her1.jpeg', alt:'Photo 4'},
+  {src:'me1.jpeg', alt:'Photo 5'},
+  {src:'mine.jpeg', alt:'Photo 6'},
 ];
 function buildGallery(){
   const box=document.getElementById('gallery');
